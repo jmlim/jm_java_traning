@@ -1,4 +1,4 @@
-package io.jmlim.java.traning.judge.programmers.tryout3930;
+package io.jmlim.java.traning.judge.programmers.challenges11622;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +15,17 @@ import java.util.List;
  * v의 각 원소는 점의 좌표를 나타내며, 좌표는 [x축 좌표, y축 좌표] 순으로 주어집니다.
  * 좌표값은 1 이상 10억 이하의 자연수입니다.
  * 직사각형을 만드는 데 필요한 나머지 한 점의 좌표를 [x축 좌표, y축 좌표] 순으로 담아 return 해주세요.
+ *
+ *  예
+ * v	result
+ * [[1, 4], [3, 4], [3, 10]]	[1, 10]
+ * [[1, 1], [2, 2], [1, 2]]	[2, 1]
+ * 입출력 예 설명
+ * 입출력 예 #1
+ * 세 점이 [1, 4], [3, 4], [3, 10] 위치에 있을 때, [1, 10]에 점이 위치하면 직사각형이 됩니다.
+ *
+ * 입출력 예 #2
+ * 세 점이 [1, 1], [2, 2], [1, 2] 위치에 있을 때, [2, 1]에 점이 위치하면 직사각형이 됩니다.
  */
 public class Solution {
     public int[] solution(int[][] v) {
