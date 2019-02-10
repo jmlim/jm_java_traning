@@ -58,7 +58,7 @@ public class Solution {
         String answer = participantMap.keySet().toArray()[0].toString();
         return answer;
 
-        //남들 푼거보니 멍청하게 풀었네.. 그냥 value를 숫자 카운트로 해도 되는디-ㅅ- 일단 그냥 올림
+        //남들 푼거보니 내가 멍청하게 풀었네.. 그냥 value를 숫자 카운트로 해도 되는디-ㅅ- 일단 그냥 올림
     }
 
     // test case
